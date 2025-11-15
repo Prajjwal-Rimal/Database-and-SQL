@@ -3,23 +3,23 @@
 > [what is a data warehouse by IBM Technology](https://www.youtube.com/watch?v=k4tK2ttdSDg) 
 > [what is a data warehouse by 365 data science](https://www.youtube.com/watch?v=AHR_7jFCMeY&pp=ygUOZGF0YSB3YXJlaG91c2U%3D)
 
- 1. ==EDW = enterprise data warehouse== and ==INMON== is considered as the father of data warehouse
- 2. ==data lakes, data warehouse, and data marts== are different things
+ 1. <mark>EDW = enterprise data warehouse</mark> and <mark>INMON</mark> is considered as the father of data warehouse
+ 2. =<mark>data lakes, data warehouse, and data marts</mark> are different things
     - **data lakes**: 
-        - has a ==dump of all raw  unstructured data== in a quick way to organize later 
+        - has a <mark>dump of all raw  unstructured data</mark> in a quick way to organize later 
     - **data warehouse**:
         - purpose specific than data lake
-        - ==large collection of organized cleaned data== that can be used by the organization to make business decisions 
-        - help to ==support decision support system== (Data warehouses enable reporting, analysis, and decision-making)
+        - <mark>arge collection of organized cleaned data</mark> that can be used by the organization to make business decisions 
+        - help to <mark>upport decision support system</mark> (Data warehouses enable reporting, analysis, and decision-making)
     - **data mart**:
         - subset of data warehouse
-        - ==specific to a certain domain==
+        - <mark>specific to a certain domain</mark>
 3. **Data warehouse** 
-    - is a ==point of truth== across multiple knowledge domains (==structuring best quality data in one place==)
-    - step 1::: the data comes from multiple ==different sources and system==
+    - is a <mark>point of truth</mark> across multiple knowledge domains (<mark>structuring best quality data in one place</mark>)
+    - step 1::: the data comes from multiple <mark>different sources and system</mark>
     - step 2::: the data is ***transformed from a raw form to a high quality one (information)*** which is ***optimized for analytics via ETL(extract, transform, and load tools)*** 
-    - step 3::: data could ==cover multiple domains== like customer data, sales, data, erp data, supply chain data, etc
-    - step 4::: after this the ==extracted data is cleaned, transformed and loaded== 
+    - step 3::: data could <mark>cover multiple domains=</mark> like customer data, sales, data, erp data, supply chain data, etc
+    - step 4::: after this the <mark>extracted data is cleaned, transformed and loaded</mark> 
     - step 5::: the data is exposed for use which then people perform ai/ml analysis on, users can be business analysists, data scientists, data engineers
     -  step 6::: they further process the data using tools in the data warehouse or using bi intelligence tools
     - ***for data warehouse to be effective it must be*** :
@@ -31,10 +31,10 @@
         1. data store: 
             - all cleaned, and integrated data stored in one place
         2. data mart: 
-            - cleaned data stored in data store is ==broken down into smaller segments for specific department==
+            - cleaned data stored in data store is <mark>broken down into smaller segments for specific department</mark>
             - if sales needs it is broken into sales data, if needed for supply chain analysis broken down for supply chain data
         3. metadata : 
-            - just ==basic information about the data== that makes it easier to understand what type of data we are dealing with
+            - just <mark>basic information about the data</mark> that makes it easier to understand what type of data we are dealing with
             - explains what the data is, where it came from, and how it is structured
             - making it easier to understand the data and use it
     > **MAJORLY USED FOR DATA REPORTING AND ANALYSIS PURPOSE**
@@ -55,12 +55,12 @@
 
 6. **Application Oriented vs Subject Oriented**:
     1. **application oriented**
-        - this is used for ==day to day operations==
+        - this is used for <mark>day to day operations</mark>
         - real time
         - stores all detailed transactions in real time
         - a database the company uses in a day to day operation
     2. **subject oriented**
-        - used for ==analysis, reporting, dashboards, forecasting==
+        - used for <mark>analysis, reporting, dashboards, forecasting</mark>
         - stores clean, historical, integrated data
         - organized by subject ( then end goal, user)
         - not updated in real time
@@ -85,7 +85,7 @@ flowchart TD
 
 ## Components of a Metadata
 - information that is kept about the warehouse 
-- data about the data
+- <mark>data about the data</mark>
 - components of the metadata:
     1. **transformation maps**: how the data has been transformed from raw to clean data
     2. **extraction and relationship history**: how the data was pulled and how does it relate to other data
@@ -94,7 +94,7 @@ flowchart TD
     5. **pattern of access**: who accessed, what accessed, how many times accessed 
 
 ## Transformation Mapping Records
-- metadata that documents how data is transformed before it enters the data warehouse
+- metadata that <mark>documents how data is transformed before it enters the data warehouse</mark>
 - it includes:
 ```mermaid
 flowchart TD
