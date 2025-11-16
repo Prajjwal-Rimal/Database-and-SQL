@@ -71,7 +71,7 @@
 flowchart TD
     A[Raw Data Sources] --> L[Data Lake]
     O[Operational Data Store ODS] --> C[Transformation]
-    G[Operational Systems ] --> O
+    G[Operational Systems ] --> C
     L --> B[Cleaning]
     B --> C[Transformation]
     C --> D[Data Warehouse]
