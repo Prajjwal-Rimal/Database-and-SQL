@@ -1,10 +1,11 @@
  ## what is a data warehouse
  reference video : 
-> [what is a data warehouse by IBM Technology](https://www.youtube.com/watch?v=k4tK2ttdSDg) 
+> [what is a data warehouse by IBM Technology](https://www.youtube.com/watch?v=k4tK2ttdSDg)
+
 > [what is a data warehouse by 365 data science](https://www.youtube.com/watch?v=AHR_7jFCMeY&pp=ygUOZGF0YSB3YXJlaG91c2U%3D)
 
  1. <mark>EDW = enterprise data warehouse</mark> and <mark>INMON</mark> is considered as the father of data warehouse
- 2. =<mark>data lakes, data warehouse, and data marts</mark> are different things
+ 2. <mark>data lakes, data warehouse, and data marts</mark> are different things
     - **data lakes**: 
         - has a <mark>dump of all raw  unstructured data</mark> in a quick way to organize later 
     - **data warehouse**:
