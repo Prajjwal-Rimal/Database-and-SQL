@@ -10,8 +10,8 @@
         - has a <mark>dump of all raw  unstructured data</mark> in a quick way to organize later 
     - **data warehouse**:
         - purpose specific than data lake
-        - <mark>arge collection of organized cleaned data</mark> that can be used by the organization to make business decisions 
-        - help to <mark>upport decision support system</mark> (Data warehouses enable reporting, analysis, and decision-making)
+        - <mark>large collection of organized cleaned data</mark> that can be used by the organization to make business decisions 
+        - help to <mark>support decision support system</mark> (Data warehouses enable reporting, analysis, and decision-making)
     - **data mart**:
         - subset of data warehouse
         - <mark>specific to a certain domain</mark>
@@ -124,5 +124,6 @@ flowchart TD
     - has the data about the data
 
 ---
-DAY TO DAY OPERATIONS => OLTP => TRANSACTION PROCESSING => ONLINE TRANSACTION PROCESSING
-STORAGE CLEANED FOR ANALYSIS => OLAP => ANALYTICAL PROCESSING => ONLINE ANALYTICAL PROCESSING 
+> DAY TO DAY OPERATIONS => OLTP => TRANSACTION PROCESSING => ONLINE TRANSACTION PROCESSING
+<br>
+> STORAGE CLEANED FOR ANALYSIS => OLAP => ANALYTICAL PROCESSING => ONLINE ANALYTICAL PROCESSING 
