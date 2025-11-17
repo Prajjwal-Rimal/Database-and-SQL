@@ -107,7 +107,7 @@ flowchart TD
     F[KEY CHANGES: any changes to the parent child key, primary key foreign key, renaming surrogate keys] -->
     G[DEFAULT ATTRIBUTE VALUES: handling missing data] -->
     H[LOGIC TO CHOOSE FROM MULTIPLE SOURCES] -->
-    I[algorithmic changes: apply calculation total price = unit price * quantity]
+    I[ALGORITHMIC CHANGES: apply calculation total price = unit price * quantity]
 
 ```
 
