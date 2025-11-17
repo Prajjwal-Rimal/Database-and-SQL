@@ -28,8 +28,11 @@
     - this is why <mark>data warehoused OLAP system are considered 3D</mark>
 6. this is a ***decision support system***
 7. historical, cleaned, precise
-8. STAR SCHEMA, SNOWFLAKE SCHEMA
+8. STAR SCHEMA, SNOWFLAKE SCHEMA (it is a extended version of star schema)
 9. NOT ALL OLAPS ARE CUBE BASED 
+10. priority for ***HEAVY COMPLEX QUERIES***
+11. aggregate data (sum, avg, max, group by, etc)
+12. drilled down - more detail, roll up - more summary
 
 ## OLTP
 1. enables <mark> real time execution of large number of database transactions </mark> by multiple users
@@ -48,6 +51,7 @@
 9. Realtime, current, and detailed
 10. ER, ERD, LOGICAL DIAGRAM, COMPOSITION DECOMPOSITION
 11. <mark>avoid expensive queries</mark> like multiple joins as they slow down transactions
+12. are ***highly normalized*** to avoid redundancy and mantain data quality
 
 > for college definitions are fine, however skim through the OLAP AND OLTP points to understand the differences cause it has been discussed in the lectures though not boldly present in the slides
 
@@ -78,7 +82,9 @@ flowchart TD
     Items
         Pant     6    7    1   <- Store1
         Shirt   400  500  600
+-- SHEET OF PAPER --
 
+    Items
         Pant     4    8    2   <- Store2
         Shirt   300  450  500
 
@@ -87,6 +93,7 @@ flowchart TD
 1. DATA WAREHOUSE <mark> IS NOT 3 DIMENSIONAL IT IS JUST A LARGE CLEANED ORGANIZED NON-VOLATILE DATABASE</mark>
 2. ITS THE ANALYSIS PROCESS <mark>OLAP THAT IS 3 DIMENSIONAL</mark>
 3. OLAP models are built on top of the data warehouse and are 3D in nature
+4. OLTP Is normalized but OLAP is not as to make reads faster
 
 ## Reference 
 > https://www.youtube.com/watch?v=iw-5kFzIdgY
