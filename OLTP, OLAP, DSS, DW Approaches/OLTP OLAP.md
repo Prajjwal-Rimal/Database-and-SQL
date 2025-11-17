@@ -32,7 +32,7 @@
 9. NOT ALL OLAPS ARE CUBE BASED 
 10. priority for ***HEAVY COMPLEX QUERIES***
 11. aggregate data (sum, avg, max, group by, etc)
-12. drilled down - more detail, roll up - more summary
+12. drilled down - more detail, roll up - more summary ==>> granularity
 
 ## OLTP
 1. enables <mark> real time execution of large number of database transactions </mark> by multiple users
