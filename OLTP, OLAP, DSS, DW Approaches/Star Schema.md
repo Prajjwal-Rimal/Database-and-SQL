@@ -22,7 +22,7 @@ flowchart TD
     C[Cleaning] -->
     D[Transformation] -->
     E[DATA WAREHOUSE
-    big table of cleaned, nonvolatile historical, normalized 3nf, integrated data] --> 
+    big table of cleaned, nonvolatile historical, normalized 3nf in inmon / in kimball it is denormalized, integrated data] --> 
     F[DATA MARTS
     denormalized fact and dimension tables created using star schema] --> 
     G[OLAP ANALYSIS]
