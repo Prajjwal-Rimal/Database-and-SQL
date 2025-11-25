@@ -80,6 +80,7 @@ flowchart TD
 
 ```
 
+
 **Data Warehouse = has all the cleaned data**
 **Data Mart = specific subject oriented slice of the warehouse**
 **Operational Data Store = provides up-to date real time data, and feeds that cleaned integrated data into data warehouse**
