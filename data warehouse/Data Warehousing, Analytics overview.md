@@ -70,7 +70,7 @@
 ```mermaid
 flowchart TD
     A[Raw Data Sources] --> L[Data Lake]
-    O[Operational Data Store ODS] -->B
+    O[Operational Data Store ODS] -->L
     G[Operational Systems ] --> O
     L --> B[Cleaning]
     B --> C[Transformation]
